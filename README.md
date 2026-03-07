@@ -1,2 +1,2 @@
 Mr. Zoghbi paper "Fast algorithms for generating integer partitions - International journal for computing math, vol 70, pp 319-332" describes 2 fast algorithms ZS1 and ZS2 in standard representation anti-lexicographic and lexicographic order. It was seen by many professionals that algorithm ZS1 is the state of the art.
-My paper "Algorithm Z1 Accelerated and Parallel Generation of Integer Partitions in Standard Form" introduces Z1, Z2 as accelerations to ZS1, ZS2.
+My work "Algorithm Z1 Accelerated and Parallel Generation of Integer Partitions in Standard Form" performs saving up to 89% compared to Algorithm ZS1.
