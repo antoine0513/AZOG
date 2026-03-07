@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
 
   <title>
-    Fast Algorithms for Generating Integer Partitions – ZS1, ZS2, Z1, Z2
+    Fast Algorithms for Generating Integer Partitions – ZS1, ZS2, Z1, Z2, Z3
   </title>
 
   <!-- SEO -->
   <meta name="description" content="
   Research on fast algorithms for generating integer partitions.
   Describes algorithms ZS1 and ZS2, and introduces accelerated algorithms
-  Z1, and Z2. ZS1 is widely regarded as state of the art.
+  Z1, and Z2. ZS1 is widely regarded as state-of-the-art. 
+  Algorithm Z3 provides distruted subsets for parallel execution on single hardware.
   ">
   <meta name="keywords" content="
   integer partitions,
@@ -20,6 +21,7 @@
   ZS2,
   Z1,
   Z2,
+  Z3,
   lexicographic order,
   anti-lexicographic order,
   combinatorial algorithms
@@ -65,8 +67,10 @@
     <h2>Accelerated Algorithms: Z Series</h2>
 
     <p>
-      The paper <em>“Algorithm Z1 Accelerated and Parallel Generation of Integer Partitions”</em> 
-      introduces new algorithms Z1 and Z2 building upon the ZS framework.
+      The original paper <em>“Algorithm Z1 Accelerated and Parallel Generation of Integer Partitions”</em> 
+      introduces new algorithms Z1 and Z2 built upon the ZS1 and ZS2 framework.
+      verion 2 introduces some enhencement to Z1, and introduces Algorithm Z3 to generate fairly
+      distributed subsets for parallel execution on single hardware. Time saving up to 89%.
     </p>
 
     <ul>
@@ -81,7 +85,7 @@
     <p>
       These algorithms further improve performance while preserving the
       correctness and ordering properties of the original ZS methods. 
-      Algorithm Z1 claims time saving on ZS1 up to 25% on single execution, and up to 85%
+      Algorithm Z1 claims time saving on ZS1 up to 25% on single execution, and up to 89%
       on Multi-Threaded executions on single hardware system.
     </p>
 
